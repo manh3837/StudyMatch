@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StudyMatch</string>
+    <string name="app_tagline">Tìm bạn học &amp; ghép nhóm học tập thông minh</string>
+
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_find">Tìm bạn</string>
+    <string name="nav_groups">Nhóm học</string>
+    <string name="nav_schedule">Lịch học</string>
+    <string name="nav_profile">Hồ sơ</string>
+</resources>
