@@ -53,8 +53,8 @@ Sử dụng thuật toán quét điểm mốc (*sweep-line*) trên từng ngày 
 4. Chạy kiểm thử thuật toán bằng JUnit: mở file `app/src/test/java/com/studymatch/matching/MatchingEngineTest.java` và bấm nút **Run Test**.
 
 ### Tài khoản mẫu có sẵn (mật khẩu chung: `123456`)
-- **`demo@studymatch.vn` (Nguyễn Minh Anh)**: Đang làm chủ nhóm *"Android Tối Thứ Ba"* (có sẵn 2 yêu cầu xin tham gia chờ duyệt từ Bảo Ngọc & Minh Khoa) và nhận 1 lời mời vào nhóm *"Ôn thi CTDL & GT"*, kèm 1 buổi học đã kết thúc để thử tính năng đánh giá sao.
-- **`binh@studymatch.vn` (Trần Quốc Bình)**: Minh họa đúng ví dụ trong đề xuất — đạt **80% (Rất phù hợp)** với Minh Anh ở môn Lập trình Android.
+- **`demo@studymatch.vn` (Nguyễn Thế Mạnh – CNTT – K29)**: Đang làm chủ nhóm *"Android Tối Thứ Ba"* (có sẵn 2 yêu cầu xin tham gia chờ duyệt từ Bảo Ngọc & Minh Khoa) và nhận 1 lời mời vào nhóm *"Ôn thi CTDL & GT"*, kèm 1 buổi học đã kết thúc để thử tính năng đánh giá sao.
+- **`binh@studymatch.vn` (Trần Quốc Bình)**: Minh họa đúng ví dụ trong đề xuất — đạt **80% (Rất phù hợp)** với Thế Mạnh ở môn Lập trình Android.
 - **`quynh@studymatch.vn` (Mai Như Quỳnh)**: Đang bật chế độ **Ẩn lịch rảnh chi tiết** để minh họa tính năng quyền riêng tư.
 
 ---

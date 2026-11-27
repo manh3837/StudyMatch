@@ -17,7 +17,9 @@ import java.util.Map;
  * Mỗi danh sách tương ứng một collection Firestore khi triển khai thật.
  */
 public class DataStore {
-    public int version = 1;
+    public static final int CURRENT_VERSION = 2;
+
+    public int version = CURRENT_VERSION;
     public List<User> users = new ArrayList<>();
     /** userId -> SHA-256(mật khẩu). Firebase Authentication sẽ thay thế phần này. */
     public Map<String, String> passwordHashes = new HashMap<>();

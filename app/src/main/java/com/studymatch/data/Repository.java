@@ -66,10 +66,26 @@ public final class Repository {
         if (loaded == null || loaded.users == null || loaded.users.isEmpty()) {
             loaded = MockData.create();
             store = loaded;
+            store.ensureNotNull();
             save();
+            return;
         }
         store = loaded;
         store.ensureNotNull();
+        if (store.version < DataStore.CURRENT_VERSION) {
+            for (User u : store.users) {
+                if ("u_demo".equals(u.id)) {
+                    if (u.name.isEmpty() || "Nguyễn Minh Anh".equals(u.name)) {
+                        u.name = MockData.DEMO_NAME;
+                    }
+                    if (u.major.isEmpty() || "CNTT – K22".equals(u.major)) {
+                        u.major = MockData.DEMO_MAJOR;
+                    }
+                }
+            }
+            store.version = DataStore.CURRENT_VERSION;
+            save();
+        }
     }
 
     private void save() {

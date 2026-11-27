@@ -18,6 +18,8 @@ import java.util.Arrays;
  */
 public final class MockData {
 
+    public static final String DEMO_NAME = "Nguyễn Thế Mạnh";
+    public static final String DEMO_MAJOR = "CNTT – K29";
     public static final String DEMO_EMAIL = "demo@studymatch.vn";
     public static final String DEMO_PASSWORD = "123456";
 
@@ -29,7 +31,7 @@ public final class MockData {
         long now = System.currentTimeMillis();
 
         // ---------------- Sinh viên ----------------
-        User demo = user(s, "u_demo", "Nguyễn Minh Anh", DEMO_EMAIL, "CNTT – K22", User.LEVEL_MEDIUM,
+        User demo = user(s, "u_demo", DEMO_NAME, DEMO_EMAIL, DEMO_MAJOR, User.LEVEL_MEDIUM,
                 "Mình đang học Android và muốn tìm bạn cùng luyện code buổi tối.",
                 new String[]{"android", "dsa", "db"},
                 new String[]{"Ôn thi cuối kỳ", "Luyện lập trình"},
